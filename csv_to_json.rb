@@ -73,7 +73,7 @@ class Row
   end
 
   def radius
-    inner_edge + 50 + movement_delta + jitter
+    inner_edge - 50 + movement_delta + jitter
   end
 
   def jitter
@@ -115,7 +115,7 @@ end
 def radar_arcs
   output = []
   INNER_EDGES.each do |name, r|
-    output << {r: r + 100, name: name}
+    output << {r: r, name: name}
   end
   output
 end
