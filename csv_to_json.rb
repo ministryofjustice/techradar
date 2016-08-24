@@ -7,6 +7,11 @@ require 'csv'
 require 'pp'
 require 'json'
 
+
+def log(s)
+  #STDERR.puts(s)
+end
+
 PAGE_H = ENV['PAGE_H'] || 1000;
 PAGE_W = ENV['PAGE_W'] || 1200;
 
@@ -34,7 +39,7 @@ QUADRANT_SEEDS = {
     color: "#DC6F1D"
   },
   'Tools' => {
-    color: "#B70062",
+    color: "#B76200",
     left: (PAGE_W-200+30),
     top:   (PAGE_H/2 + 18)
   }
@@ -51,7 +56,7 @@ class Row
     @name = args['Thing']
     @prev_ring = args['Prev Ring']
     @ring = args['Ring']
-    @r = args['r'].to_i
+    @r = radius
     @theta = args['theta']
     @movement = args['movement']
   end
@@ -73,11 +78,11 @@ class Row
   end
 
   def radius
-    inner_edge - 50 + movement_delta + jitter
+    inner_edge - 50 + movement_delta #+ jitter
   end
 
   def jitter
-    (20 * rand) - 10
+    (25 * rand)
   end
 
   def movement_delta
@@ -87,7 +92,7 @@ class Row
   def to_item
     {
       name: name,
-      pc: { r: radius, t: theta},
+      pc: { r: r, t: theta},
       movement: movement
     }
   end
@@ -129,16 +134,33 @@ quadrant_number = 0
 
 quadrants.each do |name, rows|
   items = []
-  spacing = 70 / rows.size
-  start = (quadrant_number * 90) + 10
+  log "rows.size = #{rows.size}"
+  start = (quadrant_number * 90) + 5
+  log "start = #{start}"
 
-  rows.each_with_index do |row, index|
-    line = Row.new(row)
-    # have to calculate theta in this context rather than the
-    # Row object, as we need the index & display dimensions
-    line.theta = (start + (index * spacing)).to_i
-    items << line.to_item
+  ring_counts = {'Hold' => 0, 'Adopt' => 0, 'Trial' => 0, 'Assess' => 0}
+  ring_groups = rows.map{|row| Row.new(row) }.group_by{|r| r.ring}
+  ring_groups.each do |ring, rows|
+    spacing = 85 / (rows.size + 1)
+    log "spacing = #{spacing}"
+    
+    rows.each_with_index do |row, index|
+      row.theta = start + ((index+1)*spacing).to_i
+      row.r += row.jitter * ((index % 2 == 0) ? -1 : 1)
+      items << row.to_item
+    end
   end
+
+
+  # rows.each_with_index do |row, index|
+  #   line = Row.new(row)
+  #   # have to calculate theta in this context rather than the
+  #   # Row object, as we need the index & display dimensions
+  #   ring_counts[line.ring] += 1
+  #   line.theta = (start + ((ring_counts[line.ring]) * spacing)).to_i
+  #   log "row #{index}, theta  = #{line.theta}"
+  #   items << line.to_item
+  # end
 
   radar_data << Quadrant.new(name, items).to_h
   quadrant_number += 1
