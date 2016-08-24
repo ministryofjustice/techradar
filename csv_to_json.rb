@@ -39,7 +39,7 @@ QUADRANT_SEEDS = {
     color: "#DC6F1D"
   },
   'Tools' => {
-    color: "#B76200",
+    color: "#629700",
     left: (PAGE_W-200+30),
     top:   (PAGE_H/2 + 18)
   }
