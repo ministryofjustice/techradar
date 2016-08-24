@@ -92,7 +92,7 @@ class Row
   def to_item
     {
       name: name,
-      pc: { r: r, t: theta},
+      pc: { r: r.to_i, t: theta.to_i},
       movement: movement
     }
   end

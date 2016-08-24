@@ -32,7 +32,7 @@
       {
         "name": "Ruby",
         "pc": {
-          "r": 32.39377757955178,
+          "r": 36,
           "t": 14
         },
         "movement": null
@@ -40,7 +40,7 @@
       {
         "name": "Rails",
         "pc": {
-          "r": 51.84067289788537,
+          "r": 59,
           "t": 23
         },
         "movement": null
@@ -48,7 +48,7 @@
       {
         "name": "Sinatra",
         "pc": {
-          "r": 32.53138974732235,
+          "r": 38,
           "t": 32
         },
         "movement": null
@@ -56,7 +56,7 @@
       {
         "name": "Python",
         "pc": {
-          "r": 58.05165137324187,
+          "r": 73,
           "t": 41
         },
         "movement": null
@@ -64,7 +64,7 @@
       {
         "name": "Django",
         "pc": {
-          "r": 29.587191850516472,
+          "r": 49,
           "t": 50
         },
         "movement": null
@@ -72,7 +72,7 @@
       {
         "name": "Javascript (vanilla)",
         "pc": {
-          "r": 57.58183979698106,
+          "r": 57,
           "t": 59
         },
         "movement": null
@@ -80,7 +80,7 @@
       {
         "name": "SASS",
         "pc": {
-          "r": 45.36167485487659,
+          "r": 30,
           "t": 68
         },
         "movement": null
@@ -88,7 +88,7 @@
       {
         "name": "LESS",
         "pc": {
-          "r": 53.38404971572174,
+          "r": 69,
           "t": 77
         },
         "movement": null
@@ -96,7 +96,7 @@
       {
         "name": "Angular",
         "pc": {
-          "r": 338.09396932524345,
+          "r": 343,
           "t": 33
         },
         "movement": null
@@ -104,7 +104,7 @@
       {
         "name": "Java",
         "pc": {
-          "r": 372.4669059392895,
+          "r": 351,
           "t": 61
         },
         "movement": null
@@ -112,7 +112,7 @@
       {
         "name": "Node",
         "pc": {
-          "r": 139.07352755566984,
+          "r": 129,
           "t": 47
         },
         "movement": null
@@ -120,7 +120,7 @@
       {
         "name": "Crystal",
         "pc": {
-          "r": 241.55144438468147,
+          "r": 232,
           "t": 17
         },
         "movement": null
@@ -128,7 +128,7 @@
       {
         "name": "Elixir",
         "pc": {
-          "r": 274.1745245290547,
+          "r": 257,
           "t": 29
         },
         "movement": null
@@ -136,7 +136,7 @@
       {
         "name": "Phoenix",
         "pc": {
-          "r": 239.77985681402575,
+          "r": 238,
           "t": 41
         },
         "movement": null
@@ -144,7 +144,7 @@
       {
         "name": "Go",
         "pc": {
-          "r": 271.98905245593477,
+          "r": 262,
           "t": 53
         },
         "movement": null
@@ -152,7 +152,7 @@
       {
         "name": "Rust",
         "pc": {
-          "r": 248.77388016820828,
+          "r": 249,
           "t": 65
         },
         "movement": null
@@ -160,7 +160,7 @@
       {
         "name": "Elm",
         "pc": {
-          "r": 257.2448661563759,
+          "r": 265,
           "t": 77
         },
         "movement": null
@@ -176,7 +176,7 @@
       {
         "name": "DS Cloud Platform",
         "pc": {
-          "r": 27.720120672487212,
+          "r": 32,
           "t": 123
         },
         "movement": null
@@ -184,7 +184,7 @@
       {
         "name": "AWS",
         "pc": {
-          "r": 66.2672979806928,
+          "r": 71,
           "t": 151
         },
         "movement": null
@@ -192,7 +192,7 @@
       {
         "name": "Google cloud",
         "pc": {
-          "r": 234.90164988614293,
+          "r": 231,
           "t": 123
         },
         "movement": null
@@ -200,7 +200,7 @@
       {
         "name": "Dais",
         "pc": {
-          "r": 255.12547953041278,
+          "r": 269,
           "t": 151
         },
         "movement": null
@@ -208,7 +208,7 @@
       {
         "name": "Private cloud",
         "pc": {
-          "r": 347.6971887334838,
+          "r": 336,
           "t": 137
         },
         "movement": null
@@ -216,7 +216,7 @@
       {
         "name": "Azure ",
         "pc": {
-          "r": 132.737904014458,
+          "r": 131,
           "t": 112
         },
         "movement": null
@@ -224,7 +224,7 @@
       {
         "name": "Kubernetes",
         "pc": {
-          "r": 170.0551433429605,
+          "r": 154,
           "t": 129
         },
         "movement": null
@@ -232,7 +232,7 @@
       {
         "name": "Terraform",
         "pc": {
-          "r": 143.46295409544368,
+          "r": 138,
           "t": 146
         },
         "movement": null
@@ -240,7 +240,7 @@
       {
         "name": "Heroku",
         "pc": {
-          "r": 158.6442514379626,
+          "r": 166,
           "t": 163
         },
         "movement": null
@@ -256,7 +256,7 @@
       {
         "name": "Progressive Enhancement",
         "pc": {
-          "r": 47.792663617650035,
+          "r": 40,
           "t": 192
         },
         "movement": null
@@ -264,7 +264,7 @@
       {
         "name": "Emergent architecture",
         "pc": {
-          "r": 73.56199378313042,
+          "r": 71,
           "t": 199
         },
         "movement": null
@@ -272,7 +272,7 @@
       {
         "name": "Agile development",
         "pc": {
-          "r": 27.23078908840594,
+          "r": 31,
           "t": 206
         },
         "movement": null
@@ -280,7 +280,7 @@
       {
         "name": "Microservices",
         "pc": {
-          "r": 55.96335261188551,
+          "r": 72,
           "t": 213
         },
         "movement": null
@@ -288,7 +288,7 @@
       {
         "name": "Monolith-first",
         "pc": {
-          "r": 30.19214052149131,
+          "r": 48,
           "t": 220
         },
         "movement": null
@@ -296,7 +296,7 @@
       {
         "name": "Shared sign on",
         "pc": {
-          "r": 59.768491357014426,
+          "r": 56,
           "t": 227
         },
         "movement": null
@@ -304,7 +304,7 @@
       {
         "name": "BDD",
         "pc": {
-          "r": 27.03480152246526,
+          "r": 30,
           "t": 234
         },
         "movement": null
@@ -312,7 +312,7 @@
       {
         "name": "Agile security",
         "pc": {
-          "r": 69.13732829187683,
+          "r": 54,
           "t": 241
         },
         "movement": null
@@ -320,7 +320,7 @@
       {
         "name": "Coding in the Open",
         "pc": {
-          "r": 47.63947477085147,
+          "r": 48,
           "t": 248
         },
         "movement": null
@@ -328,7 +328,7 @@
       {
         "name": "Github Flow",
         "pc": {
-          "r": 74.4536942631608,
+          "r": 73,
           "t": 255
         },
         "movement": null
@@ -336,7 +336,7 @@
       {
         "name": "Responsive Design",
         "pc": {
-          "r": 43.34719169430218,
+          "r": 38,
           "t": 262
         },
         "movement": null
@@ -344,7 +344,7 @@
       {
         "name": "Fuzz testing",
         "pc": {
-          "r": 235.47684639699867,
+          "r": 242,
           "t": 202
         },
         "movement": null
@@ -352,7 +352,7 @@
       {
         "name": "Websocket connections into secure networks",
         "pc": {
-          "r": 255.40578581550707,
+          "r": 251,
           "t": 219
         },
         "movement": null
@@ -360,7 +360,7 @@
       {
         "name": "Serverless infrastructure",
         "pc": {
-          "r": 242.1762538310313,
+          "r": 233,
           "t": 236
         },
         "movement": null
@@ -368,7 +368,7 @@
       {
         "name": "Universal JS",
         "pc": {
-          "r": 259.2680850801863,
+          "r": 269,
           "t": 253
         },
         "movement": null
@@ -376,7 +376,7 @@
       {
         "name": "Single-Page Apps",
         "pc": {
-          "r": 326.8729534558103,
+          "r": 348,
           "t": 227
         },
         "movement": null
@@ -384,7 +384,7 @@
       {
         "name": "Federated Active Directory auth",
         "pc": {
-          "r": 141.7855656415473,
+          "r": 128,
           "t": 206
         },
         "movement": null
@@ -392,7 +392,7 @@
       {
         "name": "Exploratory manual testing",
         "pc": {
-          "r": 164.45987023435254,
+          "r": 155,
           "t": 227
         },
         "movement": null
@@ -400,7 +400,7 @@
       {
         "name": "Continuous service review",
         "pc": {
-          "r": 131.09107767187191,
+          "r": 146,
           "t": 248
         },
         "movement": null
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "color": "#B76200",
+    "color": "#629700",
     "left": 1030,
     "top": 518,
     "quadrant": "Tools",
@@ -416,7 +416,7 @@
       {
         "name": "Docker",
         "pc": {
-          "r": 47.94101251750674,
+          "r": 39,
           "t": 303
         },
         "movement": null
@@ -424,7 +424,7 @@
       {
         "name": "Gov_uk_elements gem",
         "pc": {
-          "r": 63.031113727118374,
+          "r": 72,
           "t": 331
         },
         "movement": null
@@ -432,7 +432,7 @@
       {
         "name": "Kontena",
         "pc": {
-          "r": 237.35980049755463,
+          "r": 240,
           "t": 317
         },
         "movement": null
@@ -440,7 +440,7 @@
       {
         "name": "ITIL",
         "pc": {
-          "r": 327.21624888275596,
+          "r": 344,
           "t": 317
         },
         "movement": null
@@ -448,7 +448,7 @@
       {
         "name": "Vault",
         "pc": {
-          "r": 134.52708222739625,
+          "r": 143,
           "t": 303
         },
         "movement": null
@@ -456,7 +456,7 @@
       {
         "name": "Lets Encrypt",
         "pc": {
-          "r": 174.8980714852785,
+          "r": 167,
           "t": 331
         },
         "movement": null
