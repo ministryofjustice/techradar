@@ -113,7 +113,7 @@ for (var i = 0; i < radar_data.length; i++) {
             .text( radar_arcs[stageIdx].name)
             .strokeStyle( '#cccccc' )
             .fillStyle( '#cccccc')                    
-            .font(headingFontSize + "px Courier New");
+            .font(headingFontSize + "px sans-serif");
 
     radar.add(pv.Label)             
         .left( radar_data[i].left )         
