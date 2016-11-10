@@ -1,4 +1,4 @@
-  document.title = "MoJ DS's Technology Radar (August 16)";
+  document.title = "MoJ DS's Technology Radar (September 2016)";
 
   var radar_arcs = [
   {
@@ -32,138 +32,146 @@
       {
         "name": "Ruby",
         "pc": {
-          "r": 36,
+          "r": 39,
           "t": 14
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Rails",
         "pc": {
-          "r": 59,
+          "r": 51,
           "t": 23
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Sinatra",
         "pc": {
-          "r": 38,
+          "r": 43,
           "t": 32
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Python",
         "pc": {
-          "r": 73,
+          "r": 61,
           "t": 41
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Django",
         "pc": {
-          "r": 49,
+          "r": 40,
           "t": 50
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Javascript (vanilla)",
         "pc": {
-          "r": 57,
+          "r": 62,
           "t": 59
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "SASS",
         "pc": {
-          "r": 30,
+          "r": 46,
           "t": 68
         },
-        "movement": null
+        "movement": "t"
       },
       {
-        "name": "LESS",
+        "name": "LESS (css)",
         "pc": {
-          "r": 69,
+          "r": 58,
           "t": 77
         },
-        "movement": null
+        "movement": "t"
+      },
+      {
+        "name": "EJB",
+        "pc": {
+          "r": 342,
+          "t": 26
+        },
+        "movement": "t"
       },
       {
         "name": "Angular",
         "pc": {
-          "r": 343,
-          "t": 33
+          "r": 370,
+          "t": 47
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Java",
         "pc": {
-          "r": 351,
-          "t": 61
+          "r": 333,
+          "t": 68
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Node",
         "pc": {
-          "r": 129,
+          "r": 148,
           "t": 47
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Crystal",
         "pc": {
-          "r": 232,
+          "r": 230,
           "t": 17
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Elixir",
         "pc": {
-          "r": 257,
+          "r": 273,
           "t": 29
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Phoenix",
         "pc": {
-          "r": 238,
+          "r": 236,
           "t": 41
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Go",
         "pc": {
-          "r": 262,
+          "r": 273,
           "t": 53
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Rust",
         "pc": {
-          "r": 249,
+          "r": 246,
           "t": 65
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Elm",
         "pc": {
-          "r": 265,
+          "r": 255,
           "t": 77
         },
-        "movement": null
+        "movement": "t"
       }
     ]
   },
@@ -176,74 +184,74 @@
       {
         "name": "DS Cloud Platform",
         "pc": {
-          "r": 32,
+          "r": 27,
           "t": 123
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "AWS",
         "pc": {
-          "r": 71,
+          "r": 74,
           "t": 151
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Google cloud",
         "pc": {
-          "r": 231,
+          "r": 228,
           "t": 123
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Dais",
         "pc": {
-          "r": 269,
+          "r": 258,
           "t": 151
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Private cloud",
         "pc": {
-          "r": 336,
+          "r": 329,
           "t": 137
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Azure ",
         "pc": {
-          "r": 131,
+          "r": 138,
           "t": 112
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Kubernetes",
         "pc": {
-          "r": 154,
+          "r": 150,
           "t": 129
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Terraform",
         "pc": {
-          "r": 138,
+          "r": 129,
           "t": 146
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Heroku",
         "pc": {
-          "r": 166,
+          "r": 172,
           "t": 163
         },
-        "movement": null
+        "movement": "t"
       }
     ]
   },
@@ -256,50 +264,50 @@
       {
         "name": "Progressive Enhancement",
         "pc": {
-          "r": 40,
+          "r": 35,
           "t": 192
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Emergent architecture",
         "pc": {
-          "r": 71,
+          "r": 65,
           "t": 199
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Agile development",
         "pc": {
-          "r": 31,
+          "r": 39,
           "t": 206
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Microservices",
         "pc": {
-          "r": 72,
+          "r": 53,
           "t": 213
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Monolith-first",
         "pc": {
-          "r": 48,
+          "r": 43,
           "t": 220
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Shared sign on",
         "pc": {
-          "r": 56,
+          "r": 71,
           "t": 227
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "BDD",
@@ -307,103 +315,111 @@
           "r": 30,
           "t": 234
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Agile security",
         "pc": {
-          "r": 54,
+          "r": 64,
           "t": 241
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Coding in the Open",
         "pc": {
-          "r": 48,
+          "r": 41,
           "t": 248
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Github Flow",
         "pc": {
-          "r": 73,
+          "r": 50,
           "t": 255
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Responsive Design",
         "pc": {
-          "r": 38,
+          "r": 42,
           "t": 262
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Fuzz testing",
         "pc": {
-          "r": 242,
-          "t": 202
+          "r": 228,
+          "t": 199
         },
-        "movement": null
+        "movement": "t"
+      },
+      {
+        "name": "Mutation testing",
+        "pc": {
+          "r": 269,
+          "t": 213
+        },
+        "movement": "t"
       },
       {
         "name": "Websocket connections into secure networks",
         "pc": {
-          "r": 251,
-          "t": 219
+          "r": 248,
+          "t": 227
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Serverless infrastructure",
         "pc": {
-          "r": 233,
-          "t": 236
+          "r": 272,
+          "t": 241
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Universal JS",
         "pc": {
-          "r": 269,
-          "t": 253
+          "r": 226,
+          "t": 255
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Single-Page Apps",
         "pc": {
-          "r": 348,
+          "r": 325,
           "t": 227
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Federated Active Directory auth",
         "pc": {
-          "r": 128,
+          "r": 136,
           "t": 206
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Exploratory manual testing",
         "pc": {
-          "r": 155,
+          "r": 161,
           "t": 227
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Continuous service review",
         "pc": {
-          "r": 146,
+          "r": 135,
           "t": 248
         },
-        "movement": null
+        "movement": "t"
       }
     ]
   },
@@ -416,50 +432,66 @@
       {
         "name": "Docker",
         "pc": {
-          "r": 39,
+          "r": 41,
           "t": 303
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Gov_uk_elements gem",
         "pc": {
-          "r": 72,
+          "r": 54,
           "t": 331
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Kontena",
         "pc": {
           "r": 240,
+          "t": 296
+        },
+        "movement": "t"
+      },
+      {
+        "name": "Terraform",
+        "pc": {
+          "r": 253,
           "t": 317
         },
-        "movement": null
+        "movement": "t"
+      },
+      {
+        "name": "Docker Swarm",
+        "pc": {
+          "r": 237,
+          "t": 338
+        },
+        "movement": "t"
       },
       {
         "name": "ITIL",
         "pc": {
-          "r": 344,
+          "r": 334,
           "t": 317
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Vault",
         "pc": {
-          "r": 143,
+          "r": 146,
           "t": 303
         },
-        "movement": null
+        "movement": "t"
       },
       {
         "name": "Lets Encrypt",
         "pc": {
-          "r": 167,
+          "r": 168,
           "t": 331
         },
-        "movement": null
+        "movement": "t"
       }
     ]
   }
