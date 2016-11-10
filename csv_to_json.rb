@@ -46,7 +46,7 @@ QUADRANT_SEEDS = {
 }
 
 def document_title(date=Time.now)
-  "MoJ DS's Technology Radar (#{date.strftime('%B %g')})"
+  "MoJ DS's Technology Radar (#{date.strftime('%B %G')})"
 end
 
 class Row
@@ -58,7 +58,7 @@ class Row
     @ring = args['Ring']
     @r = radius
     @theta = args['theta']
-    @movement = args['movement']
+    @movement = args['movement'] || shape
   end
 
   def moving_in?
@@ -75,6 +75,10 @@ class Row
 
   def inner_edge
     INNER_EDGES[ring]
+  end
+
+  def shape
+    moved? ? 't' : 'c'
   end
 
   def radius
@@ -110,8 +114,8 @@ class Quadrant
   def to_h
     QUADRANT_SEEDS[name].merge(
       {
-        'quadrant': name,
-        'items': items
+        'quadrant' => name,
+        'items' => items
       }
     )  
   end
@@ -150,17 +154,6 @@ quadrants.each do |name, rows|
       items << row.to_item
     end
   end
-
-
-  # rows.each_with_index do |row, index|
-  #   line = Row.new(row)
-  #   # have to calculate theta in this context rather than the
-  #   # Row object, as we need the index & display dimensions
-  #   ring_counts[line.ring] += 1
-  #   line.theta = (start + ((ring_counts[line.ring]) * spacing)).to_i
-  #   log "row #{index}, theta  = #{line.theta}"
-  #   items << line.to_item
-  # end
 
   radar_data << Quadrant.new(name, items).to_h
   quadrant_number += 1
